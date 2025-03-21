@@ -14,8 +14,8 @@ export DXVK_HUD=
 export DXVK_CONFIG_FILE="$HOME/dxvk.conf"
 ### Enable it if you have Freedreno driver installed
 
-##export MESA_LOADER_DRIVER_OVERRIDE=kgsl
-##export GALLIUM_DRIVER=freedreno
+export MESA_LOADER_DRIVER_OVERRIDE=kgsl
+export GALLIUM_DRIVER=freedreno
 
 ### General settings
 
@@ -30,7 +30,7 @@ export WINE_CPU_TOPOLOGY=8:3,4,5,6,7
 
 ### Wrapper specific settings
 
-export ADRENOTOOLS_DRIVER_NAME="vulkan.adreno.so"
+export ADRENOTOOLS_DRIVER_NAME="vulkanold.adreno.so"
 export ADRENOTOOLS_DRIVER_PATH="$PREFIX/drivers/"
 export ADRENOTOOLS_HOOKS_PATH="$PREFIX/lib"
 export VK_ICD_FILENAMES=$PREFIX/share/vulkan/icd.d/wrapper_icd.aarch64.json
@@ -51,9 +51,8 @@ export WINEFSYNC=0
 
 ###
 ##su -c setenforce 0
-export SDL_GAMECONTROLLERCONFIG="05000000d70700004000000011010000200764,Flydigi G1,platform:Linux,righttrigger:b6,a:b10,leftx:a0,lefty:a1"
-sudo chown -R u0_a453:input /dev/input/event11 
-su -c ulimit -n 827680
+##sudo chown -R u0_a453:input /dev/input/event11
+##su -c ulimit -n 827680
 clear
 
 
@@ -64,6 +63,4 @@ clear
         sleep 1 
         DISPLAY=:1 \
         WINE_DISABLE_KERNEL_WRITEWATCH=1 \
-	WINEPREFIX=~/wineprefix/.wine taskset -c 3-7 wine explorer /desktop=shell,1600x720 "C:\systemshock.bat" > $HOME/protonlog.txt 2>&1 \
-        pkill -f com.termux.x11
-	
+	WINEPREFIX=~/wineprefix/winebox3 box64 /data/data/com.termux/files/usr/opt/proton-box64/bin/wine explorer /desktop=shell,1600x720 taskmgr 

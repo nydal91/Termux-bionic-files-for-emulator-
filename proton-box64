@@ -6,7 +6,7 @@ pkill -f com.termux.x11
 
 export WINEESYNC=1
 ##export MESA_VK_WSI_PRESENT_MODE=mailbox
-export MESA_VK_WSI_PRESENT_MODE=immediate
+##export MESA_VK_WSI_PRESENT_MODE=immediate
 export MANGOHUD=1
 export MANGOHUD_DLSYM=1
 export MANGOHUD_CONFIGFILE=~/.config/MangoHud/MangoHud.conf
@@ -19,7 +19,7 @@ export DXVK_CONFIG_FILE="$HOME/dxvk.conf"
 
 ### General settings
 
-##export vblank_mode=0
+export vblank_mode=0
 export DXVK_CONFIG_FILE="$HOME/dxvk.conf"
 export DXVK_ASYNC=1
 export VKD3D_FEATURE_LEVEL=12_0
@@ -51,9 +51,8 @@ export WINEFSYNC=0
 
 ###
 ##su -c setenforce 0
-export SDL_GAMECONTROLLERCONFIG="05000000d70700004000000011010000200764,Flydigi G1,platform:Linux,righttrigger:b6,a:b10,leftx:a0,lefty:a1"
-sudo chown -R u0_a453:input /dev/input/event11 
-su -c ulimit -n 827680
+##sudo chown -R u0_a453:input /dev/input/event11
+##su -c ulimit -n 827680
 clear
 
 
@@ -64,6 +63,4 @@ clear
         sleep 1 
         DISPLAY=:1 \
         WINE_DISABLE_KERNEL_WRITEWATCH=1 \
-	WINEPREFIX=~/wineprefix/.wine taskset -c 3-7 wine explorer /desktop=shell,1600x720 "C:\systemshock.bat" > $HOME/protonlog.txt 2>&1 \
-        pkill -f com.termux.x11
-	
+	WINEPREFIX=~/wineprefix/winebox3 box64 /data/data/com.termux/files/usr/opt/proton-box64/bin/wine explorer /desktop=shell,1600x720 taskmgr 
