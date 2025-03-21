@@ -25,3 +25,8 @@ Install termux x11 extra
 wget https://raw.githubusercontent.com/moio9/termux-hwac/refs/heads/main/tools/connect_gamepad.py
 
 python connect_gamepad.py
+
+8bitdo:
+
+python connect_8bitdo.py (xbox mode)
+
