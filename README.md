@@ -30,3 +30,8 @@ python connect_gamepad.py
 
 python connect_8bitdo.py (xbox mode)
 
+build box64:
+git clone https://github.com/ptitSeb/box64
+cd ~/box64
+        mkdir build; cd build; cmake .. -D TERMUX=1 -DCMAKE_C_COMPILER=clang -D CMAKE_BUILD_TYPE=RelWithDebInfo -D BAD_SIGNAL=ON -D SD8G2=ON
+   make -j8; make install     
