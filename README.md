@@ -34,4 +34,15 @@ build box64:
 git clone https://github.com/ptitSeb/box64
 cd ~/box64
         mkdir build; cd build; cmake .. -D TERMUX=1 -DCMAKE_C_COMPILER=clang -D CMAKE_BUILD_TYPE=RelWithDebInfo -D BAD_SIGNAL=ON -D SD8G2=ON
-   make -j8; make install     
+   make -j8; make install  
+
+## Termux-X11 extra preferences
+* `Display resolution mode` exact
+* `Display resolution` 1280x720
+* `Reseed Screen While Soft Keyboard is open` OFF
+* `Fullscreen on device display` ON
+* `Force Landscape orientation` ON
+* `Hide display cutout` ON
+* `Show additional keyboard` OFF
+* `Prefer scancodes when possible` ON
+* `hardware keyboard scancode` Off
