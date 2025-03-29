@@ -1,104 +1,104 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <map>
-    <set name="preset_altf4">
-        <string>30,206.14941,301.23242,264,144,255,↑,↑</string>
-        <string>31,216.18262,524.9082,264,144,255,↓,↓</string>
-        <string>25,1914.5781,30.43457,264,144,255,Alt + F4,Alt + F4</string>
-        <string>29,645.9834,412.79102,264,144,255,Tab,Tab</string>
+    <set name="preset_xbox">
+        <string>46,1458.124,819.6914,178,178,255,Page Down,Page Down,false</string>
+        <string>43,2117.8574,623.2002,178,178,255,Home,Home,false</string>
+        <string>50,1298.6719,184.62598,264,144,255,P,P,false</string>
+        <string>45,2205.792,208.53613,178,178,255,Page Up,Page Up,false</string>
+        <string>41,1913.3584,798.5625,178,178,255,Delete,Delete,false</string>
+        <string>42,1906.1729,448.708,178,178,255,Insert,Insert,false</string>
+        <string>52,855.49805,173.94531,264,144,255,L,L,false</string>
+        <string>49,310.61816,250.68164,264,144,255,F7,F7,false</string>
+        <string>47,1858.7393,205.28809,178,178,255,F11,F11,false</string>
+        <string>44,1722.9287,606.4492,178,178,255,End,End,false</string>
     </set>
     <set name="Empty" />
-    <set name="preset_flydigi">
-        <string>52,1849.8896,127.42969,157,157,5,Backspace,Backspace</string>
-        <string>44,2036.6992,-8.645508,130,130,5,5,5</string>
-        <string>51,2157.8232,776.01855,264,144,5,C,C</string>
-        <string>18,2335.6143,20.232422,153,153,5,Enter,Enter</string>
-        <string>41,1676.7402,2.6132812,130,130,5,2,2</string>
-        <string>53,1844.5469,261.67578,157,157,5,Tab,Tab</string>
-        <string>23,2071.6309,-134.92188,144,144,5,1,1</string>
-        <string>35,2206.168,518.47754,136,136,5,V,V</string>
-        <string>42,1772.4863,-12.014648,130,130,5,3,3</string>
-        <string>45,2325.749,486.10352,134,134,5,X,X</string>
-        <string>22,2282.2676,334.64648,151,151,5,F,F</string>
-        <string>46,2022.5283,193.42188,134,134,5,G,G</string>
-        <string>43,1915.9209,2.788086,130,130,5,4,4</string>
-        <string>50,1490.6875,1.7011719,134,134,5,0,0</string>
-        <string>37,1565.208,-3.6230469,130,130,5,1,1</string>
-        <string>36,2027.4619,608.1094,153,153,5,X,X</string>
-        <string>16,2049.4033,473.4707,106,106,5,S,S</string>
-        <string>47,2295.0684,209.74414,134,134,5,R,R</string>
-        <string>49,2176.127,643.3096,134,134,5,Z,Z</string>
-        <string>21,2160.371,366.88574,146,146,5,T,T</string>
-        <string>34,2178.0078,225.5498,130,130,5,Q,Q</string>
-        <string>48,2342.5674,644.8428,134,134,5,M,M</string>
-        <string>19,2202.9766,18.0,151,151,5,Escape,Escape</string>
-        <string>20,2012.6377,323.2959,149,149,5,Space,Space</string>
-        <string>54,1377.9014,11.936523,121,121,5,F5,F5</string>
+    <set name="preset_0000" />
+    <set name="preset_flydigi2">
+        <string>36,1349.1543,-20.652344,166,166,5,2,2,false</string>
+        <string>7,26.435547,547.2295,264,144,5,A,A,true</string>
+        <string>16,1842.7822,-20.652344,166,166,5,Mouse_Left,Mouse_Left,false</string>
+        <string>18,1610.25,-20.864258,166,166,5,Escape,Escape,false</string>
+        <string>19,1480.2129,-20.652344,166,166,5,Enter,Enter,false</string>
+        <string>56,2293.3145,648.334,166,166,5,4,4,false</string>
+        <string>5,205.10547,652.31934,254,201,5,S,S,true</string>
+        <string>21,2308.4824,967.80566,166,166,5,F,F,false</string>
+        <string>17,2306.9873,-20.652344,166,166,5,F5,F5,false</string>
+        <string>32,2250.752,546.83594,166,166,5,C,C,false</string>
+        <string>24,2058.502,350.83203,166,166,5,Space,Space,false</string>
+        <string>34,1711.1338,347.66406,166,166,5,Ctrl,Ctrl,false</string>
+        <string>6,373.3252,548.249,264,144,5,D,D,true</string>
+        <string>25,2150.3916,-20.652344,166,166,5,1,1,false</string>
+        <string>200,1895.9004,368.76074,166,166,5,EMPTY,B,false</string>
+        <string>12,1983.4658,-20.652344,166,166,5,Mouse_Middle,MMiddle,false</string>
+        <string>30,2299.83,365.45605,166,166,5,H,H,false</string>
+        <string>57,2292.1904,803.7031,166,166,5,X,X,false</string>
+        <string>22,261.37012,554.85254,135,135,5,EMPTY,E,true</string>
+        <string>23,1853.8789,183.58789,166,166,5,Q,Q,false</string>
+        <string>33,2077.5732,503.87598,166,166,5,R,R,false</string>
+        <string>55,1909.8408,510.3877,166,166,5,E,E,false</string>
+        <string>15,2161.5518,155.28027,166,166,5,Mouse_Right,Mouse_Right,false</string>
+        <string>4,207.3418,395.91797,239,189,5,W,W,true</string>
+        <string>37,1144.2822,-20.652344,166,166,5,3,3,false</string>
+        <string>31,1990.6328,161.10547,166,166,5,Z,Z,false</string>
+        <string>35,1530.9219,183.73633,166,166,5,Shift,Shift,false</string>
+        <string>29,1688.2021,192.10059,166,166,5,G,G,false</string>
     </set>
-    <string name="last_used_preset_Builtin Display">preset_00</string>
-    <int name="lastUsedId" value="54" />
+    <string name="last_used_preset_Builtin Display">preset_flydigi2</string>
+    <set name="preset_xboxone">
+        <string>17,2156.9873,-20.652344,166,166,0,F5,F5,false</string>
+        <string>53,2306.9873,-20.652344,166,166,0,F11,F11,false</string>
+    </set>
+    <int name="lastUsedId" value="57" />
     <set name="button_data">
-        <string>33,2227.6836,389.7627,146,146,5,E,</string>
-        <string>52,1849.8896,127.42969,157,157,5,Backspace,Backspace</string>
-        <string>44,2036.6992,-8.645508,130,130,5,5,5</string>
-        <string>51,2157.8232,776.01855,264,144,5,C,C</string>
-        <string>24,647.7344,304.76562,264,144,255,↑,↑</string>
-        <string>10,891.3135,806.1426,264,144,5,Escape,Escape</string>
-        <string>9,-10.896484,78.12109,264,144,5,3,3</string>
-        <string>18,2335.6143,20.232422,153,153,5,Enter,Enter</string>
-        <string>41,1676.7402,2.6132812,130,130,5,2,2</string>
-        <string>31,216.18262,524.9082,264,144,255,↓,↓</string>
-        <string>53,1844.5469,261.67578,157,157,5,Tab,Tab</string>
-        <string>1,214.21484,515.22656,264,144,9,W,W</string>
-        <string>23,2071.6309,-134.92188,144,144,5,1,1</string>
-        <string>35,2206.168,518.47754,136,136,5,V,V</string>
-        <string>42,1772.4863,-12.014648,130,130,5,3,3</string>
-        <string>45,2325.749,486.10352,134,134,5,X,X</string>
-        <string>22,2282.2676,334.64648,151,151,5,F,F</string>
-        <string>46,2022.5283,193.42188,134,134,5,G,G</string>
-        <string>5,15.875,358.042,264,144,5,2,2</string>
-        <string>43,1915.9209,2.788086,130,130,5,4,4</string>
-        <string>50,1490.6875,1.7011719,134,134,5,0,0</string>
-        <string>29,645.9834,412.79102,264,144,255,Tab,Tab</string>
-        <string>2,25.999023,631.52637,264,144,5,A,A</string>
-        <string>28,976.13086,453.3496,264,144,255,null,Key 28</string>
-        <string>37,1565.208,-3.6230469,130,130,5,1,1</string>
-        <string>30,206.14941,301.23242,264,144,255,↑,↑</string>
-        <string>11,1207.4072,809.7051,264,144,5,Enter,Enter</string>
-        <string>36,2027.4619,608.1094,153,153,5,X,X</string>
-        <string>16,2049.4033,473.4707,106,106,5,S,S</string>
-        <string>47,2295.0684,209.74414,134,134,5,R,R</string>
-        <string>49,2176.127,643.3096,134,134,5,Z,Z</string>
-        <string>21,2160.371,366.88574,146,146,5,T,T</string>
-        <string>6,-29.4375,204.73828,264,144,5,U,U</string>
-        <string>34,2178.0078,225.5498,130,130,5,Q,Q</string>
-        <string>48,2342.5674,644.8428,134,134,5,M,M</string>
-        <string>25,1914.5781,30.43457,264,144,255,Alt + F4,Alt + F4</string>
-        <string>39,634.7334,443.04102,130,130,5,1,</string>
-        <string>27,432.1455,1410.6074,264,144,255,Tab,Tab</string>
-        <string>19,2202.9766,18.0,151,151,5,Escape,Escape</string>
-        <string>3,444.80273,624.2793,264,144,5,D,D</string>
-        <string>7,234.80566,224.4248,264,144,5,Y,Y</string>
-        <string>13,322.35645,410.42676,264,144,255,null,Key 13</string>
-        <string>20,2012.6377,323.2959,149,149,5,Space,Space</string>
-        <string>8,232.18066,77.05957,264,144,5,X,X</string>
-        <string>4,219.99414,629.27734,264,144,5,S,S</string>
-        <string>54,1377.9014,11.936523,121,121,5,F5,F5</string>
-        <string>40,557.36035,379.29492,130,130,5,1,</string>
+        <string>36,1349.1543,-20.652344,166,166,5,2,2,false</string>
+        <string>42,1906.1729,448.708,178,178,255,Insert,Insert,false</string>
+        <string>7,26.435547,547.2295,264,144,5,A,A,true</string>
+        <string>18,1610.25,-20.864258,166,166,5,Escape,Escape,false</string>
+        <string>19,1480.2129,-20.652344,166,166,5,Enter,Enter,false</string>
+        <string>21,2308.4824,967.80566,166,166,5,F,F,false</string>
+        <string>17,2306.9873,-20.652344,166,166,5,F5,F5,false</string>
+        <string>14,1326.1045,57.081055,175,175,5,Mouse_Left,Mleft,false</string>
+        <string>32,2250.752,546.83594,166,166,5,C,C,false</string>
+        <string>20,1896.6504,298.45312,166,166,5,E,E,false</string>
+        <string>200,1895.9004,368.76074,166,166,5,EMPTY,B,false</string>
+        <string>25,2150.3916,-20.652344,166,166,5,1,1,false</string>
+        <string>57,2292.1904,803.7031,166,166,5,X,X,false</string>
+        <string>27,2246.708,479.20215,166,166,5,H,H,false</string>
+        <string>23,1853.8789,183.58789,166,166,5,Q,Q,false</string>
+        <string>50,1298.6719,184.62598,264,144,255,P,P,false</string>
+        <string>33,2077.5732,503.87598,166,166,5,R,R,false</string>
+        <string>53,2199.1318,180.27832,264,144,255,F11,F11,false</string>
+        <string>55,1909.8408,510.3877,166,166,5,E,E,false</string>
+        <string>44,1722.9287,606.4492,178,178,255,End,End,false</string>
+        <string>40,1792.6729,464.07812,178,178,255,F11,F11 (Copy),false</string>
+        <string>4,207.3418,395.91797,239,189,5,W,W,true</string>
+        <string>41,1913.3584,798.5625,178,178,255,Delete,Delete,false</string>
+        <string>2,147.77344,377.74414,264,144,255,null,Key 2,false</string>
+        <string>31,1990.6328,161.10547,166,166,5,Z,Z,false</string>
+        <string>37,1144.2822,-20.652344,166,166,5,3,3,false</string>
+        <string>3,257.68164,394.17188,264,144,255,null,Key 3,false</string>
+        <string>47,1858.7393,205.28809,178,178,255,F11,F11,false</string>
+        <string>49,310.61816,250.68164,264,144,255,F7,F7,false</string>
+        <string>35,1530.9219,183.73633,166,166,5,Shift,Shift,false</string>
+        <string>29,1688.2021,192.10059,166,166,5,G,G,false</string>
+        <string>26,1663.0967,272.95996,166,166,5,G,G,false</string>
+        <string>43,2117.8574,623.2002,178,178,255,Home,Home,false</string>
+        <string>45,2205.792,208.53613,178,178,255,Page Up,Page Up,false</string>
+        <string>16,1842.7822,-20.652344,166,166,5,Mouse_Left,Mouse_Left,false</string>
+        <string>39,1991.8232,710.5615,178,178,255,F11,F11,false</string>
+        <string>56,2293.3145,648.334,166,166,5,4,4,false</string>
+        <string>5,205.10547,652.31934,254,201,5,S,S,true</string>
+        <string>13,1438.0986,308.3457,142,142,5,Mouse_Right,Mright,false</string>
+        <string>24,2058.502,350.83203,166,166,5,Space,Space,false</string>
+        <string>34,1711.1338,347.66406,166,166,5,Ctrl,Ctrl,false</string>
+        <string>6,373.3252,548.249,264,144,5,D,D,true</string>
+        <string>12,1983.4658,-20.652344,166,166,5,Mouse_Middle,MMiddle,false</string>
+        <string>30,2299.83,365.45605,166,166,5,H,H,false</string>
+        <string>22,261.37012,554.85254,135,135,5,EMPTY,E,true</string>
+        <string>15,2161.5518,155.28027,166,166,5,Mouse_Right,Mouse_Right,false</string>
+        <string>46,1458.124,819.6914,178,178,255,Page Down,Page Down,false</string>
+        <string>52,855.49805,173.94531,264,144,255,L,L,false</string>
+        <string>28,2296.708,529.20215,0,0,5,H,H (Copy),false</string>
     </set>
-    <set name="preset_tt">
-        <string>36,2027.4619,608.1094,153,153,5,X,X</string>
-        <string>18,2335.6143,20.232422,153,153,5,Enter,Enter</string>
-        <string>34,2178.0078,225.5498,130,130,5,Q,Q</string>
-        <string>17,283.13184,667.9375,103,103,5,D,D</string>
-        <string>19,2202.9766,18.0,151,151,5,Escape,Escape</string>
-        <string>14,189.62012,580.05273,105,105,5,W,W</string>
-        <string>20,2012.6377,323.2959,149,149,5,Space,Space</string>
-        <string>23,2071.6309,-134.92188,144,144,5,1,1</string>
-        <string>35,2206.168,518.47754,136,136,5,V,V</string>
-        <string>16,178.71777,757.54785,106,106,5,S,S</string>
-        <string>22,2282.2676,334.64648,151,151,5,F,F</string>
-        <string>21,2177.6836,339.7627,146,146,5,E,E</string>
-        <string>15,96.0332,666.88965,107,107,5,A,A</string>
-    </set>
-    <set name="preset_00" />
 </map>
