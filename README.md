@@ -11,6 +11,10 @@ cd /data/data/com.termux/files/usr/opt/proton-box64
 
 tar xvf ~/lib.tar.xz
 
+or for proton wine arm64ec
+cd /data/data/com.termux/files/usr/opt
+wget https://github.com/nydal91/Termux-bionic-files-for-emulator-/releases/download/1.0/proton-wine-xinput-nonroot.zip
+7z x proton-wine-xinput-nonroot.zip
 
 Download https://raw.githubusercontent.com/moio9/termux-hwac/refs/heads/main/tools/pre_fix.reg
 In wine
