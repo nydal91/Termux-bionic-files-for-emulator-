@@ -1,5 +1,5 @@
 ![logo](Screenshot_Termux_X11_20250401_134235.jpg "logo")
-Example off proton wine arm64ec, Arkham Knight 
+Example off proton wine arm64ec, Arkham Knight, with mangohud and native driver
 
 
 run this build of proton to get it working with termux bionic: https://github.com/airidosas252/tur
