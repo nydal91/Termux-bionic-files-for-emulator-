@@ -59,7 +59,7 @@ https://launchpad.net/~fex-emu/+archive/ubuntu/fex/+packages
 * `hardware keyboard scancode` Off
 
 Tomb Raider 2013 libwow64fex.dll
-![logo](tombraiderfex.jpg "logo")
+![logo](tombraiderfex.jpg "libwow64fex")
 
 Tomb Raider 2013 box64cpu.dll
-![logo](tombraiderbox64cpu.jpg "logo")
+![logo](tombraiderbox64cpu.jpg "box64cpu")
