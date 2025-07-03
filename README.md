@@ -8,6 +8,7 @@ run this build of proton to get it working with termux bionic: https://github.co
 how to get xinput to work on proton-box64
 
 Xinput work 
+pkg i strace
 
 wget https://github.com/moio9/termux-hwac/releases/download/dll/lib.tar.xz
 
